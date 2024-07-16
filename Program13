@@ -1,0 +1,11 @@
+string = "Python 3.2 "
+count_alpha = 0
+count_digit = 0
+for char in string:
+  if char.isalpha():
+    count_alpha += 1
+  elif char.isdigit():
+    count_digit += 1
+
+print("Letters: ", count_alpha)
+print("Digits: ", count_digit)

@@ -1,0 +1,3 @@
+x = input("plz enter a word:  ")
+reversed_word = reversed(x)
+print(''.join(reversed_word))

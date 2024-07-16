@@ -1,0 +1,18 @@
+list = []
+for i in range(0,50):
+  list.append(i)
+
+
+number_previous =list[0]
+number_current_previous = list[1]
+
+fibonacci_list = [0,1]
+for i in range(3,11):
+  fib_num = number_previous+number_current_previous
+  fibonacci_list.append(fib_num)
+  number_previous = number_current_previous
+  number_current_previous = fib_num
+
+
+print(fibonacci_list)
+

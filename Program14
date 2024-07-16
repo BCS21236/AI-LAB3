@@ -1,0 +1,13 @@
+m = int(input("Enter the number of rows: "))
+n = int(input("Enter the number of columns: "))
+
+
+array_2d = [[0 for j in range(n)] for i in range(m)]
+
+
+for i in range(m):
+  for j in range(n):
+    array_2d[i][j] = i * j
+
+
+print(array_2d)

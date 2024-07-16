@@ -1,0 +1,2 @@
+string =  '''I AM Muhammad Artificial intelligence student'''
+print(string.lower())
